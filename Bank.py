@@ -77,7 +77,7 @@ while True:
         status=cust.Login(name,Acct_Number)
         if status is True:
             while True:
-                print("Vanakam ,",name)
+                print("Hi,",name)
                 print("1.Withdraw")
                 print("2.Deposit")
                 print("3.Display_Balance")
