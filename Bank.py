@@ -18,10 +18,10 @@ class Bank:
                 print("Login successful")
                 return True
             else:
-                print("Incorrect Account_Number")
+                print("Account_Number is incorrect")
                 return False
         else:
-            print("Invalid User_name")
+            print("User_name is Invalid ")
             return False
 
     def create_Account(self,name,initialdeposit):
